@@ -72,6 +72,52 @@ h1 {
   font-size: 14px;
 }
 
+button {
+  cursor: pointer;
+}
+
+.notes-heading button,
+.note-list button,
+.editor-header button {
+  padding: 10px 16px;
+  border: 1px solid #d7d4cb;
+  border-radius: 10px;
+  background: #fffefa;
+  color: inherit;
+  font: inherit;
+}
+
+.note-list {
+  display: grid;
+  gap: 12px;
+  padding: 0;
+  margin: 28px 0 0;
+  list-style: none;
+}
+
+.note-list button {
+  width: 100%;
+  text-align: left;
+}
+
+.editor {
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px;
+}
+
+.canvas {
+  flex: 1;
+  min-height: 0;
+}
+
 .empty-state {
   display: flex;
   flex-direction: column;

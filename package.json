@@ -16,6 +16,7 @@
     "check": "npm run typecheck && npm run build && npm test && npm run test:e2e"
   },
   "dependencies": {
+    "@excalidraw/excalidraw": "0.18.1",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },

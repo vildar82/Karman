@@ -7,6 +7,11 @@ interface Messages {
   notesTitle: string;
   emptyTitle: string;
   emptyDescription: string;
+  createNote: string;
+  untitledNote: string;
+  backToNotes: string;
+  storageError: string;
+  retry: string;
   noteForms: PluralForms;
 }
 
@@ -16,6 +21,11 @@ export const messages: Record<Language, Messages> = {
     notesTitle: 'Мои заметки',
     emptyTitle: 'Пока нет заметок',
     emptyDescription: 'Создайте первую заметку, чтобы сохранить мысль, рисунок или схему.',
+    createNote: 'Создать заметку',
+    untitledNote: 'Новая заметка',
+    backToNotes: 'К заметкам',
+    storageError: 'Не удалось сохранить заметку',
+    retry: 'Повторить',
     noteForms: { one: 'заметка', few: 'заметки', many: 'заметок', other: 'заметки' },
   },
   en: {
@@ -23,6 +33,11 @@ export const messages: Record<Language, Messages> = {
     notesTitle: 'My notes',
     emptyTitle: 'No notes yet',
     emptyDescription: 'Create your first note to save a thought, a drawing, or a diagram.',
+    createNote: 'Create note',
+    untitledNote: 'Untitled note',
+    backToNotes: 'Back to notes',
+    storageError: 'Could not save the note',
+    retry: 'Retry',
     noteForms: { one: 'note', other: 'notes' },
   },
 };
