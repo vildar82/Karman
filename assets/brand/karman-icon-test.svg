@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640">
+  <title>Karman test</title>
+  <rect width="640" height="640" fill="#6C757D"/>
+  <g transform="translate(350 330) rotate(20)">
+    <rect x="-28" y="-150" width="56" height="170" fill="#2B2D42"/>
+    <rect x="-28" y="-150" width="18" height="170" fill="#3D405B"/>
+    <path d="M-28 -150 L28 -150 L6 -200 L-6 -200 Z" fill="#FFE3C2"/>
+    <path d="M-6 -200 L6 -200 L0 -214 Z" fill="#2B2D42" stroke="#2B2D42" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <path d="M170 240 L470 240 L470 420 Q470 440 452 450 L338 505 Q320 513 302 505 L188 450 Q170 440 170 420 Z" fill="#FFFFFF"/>
+  <path d="M192 268 L448 268 L448 410 Q448 426 434 434 L332 482 Q320 488 308 482 L206 434 Q192 426 192 410 Z" fill="none" stroke="#6C757D" stroke-width="7" stroke-dasharray="16 11" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
